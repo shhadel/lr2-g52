@@ -1,0 +1,49 @@
+td {
+  border: 1px #ccc solid;
+  padding: 20px;  
+}
+td:first-child {
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+}
+body {
+    background: url(picture.jpg);
+    background-size: 100%;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+
+button {
+display: inline-block;
+padding: 10px 20px;
+font-size: 15px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color: #fff;
+background-color: #000;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button: active {
+background-color: #000;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+img {
+    box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    
+}
+
+p {
+    font-size: 18px;
+}
